@@ -12,16 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "pageTitle": {
       "type": "string"
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.media",
-        "shared.quote",
-        "shared.rich-text",
-        "shared.slider"
+    "heading": {
+      "type": "string"
+    },
+    "richExtra": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
       ]
     }
   }
